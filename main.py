@@ -7,7 +7,6 @@ app = Flask('zerowide')
 def index():
     return render_template('index.html')
 def run():
-def run():
     app.run()
 
 
