@@ -6,7 +6,8 @@ app = Flask('zerowide')
 @app.route('/')
 def index():
     return render_template('index.html')
+def run():
+def run():
+    app.run()
 
-if __name__ == '__main__':
-    app.run('127.0.0.1')
 
